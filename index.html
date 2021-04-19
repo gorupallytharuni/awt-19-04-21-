@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Firebase CRUD Operations</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
+</head>
+<body align="center">
+    <h1>Firebase CRUD Operations</h1>
+    <div class="row">
+        <label>Name of the Student:</label>
+        <input type="text" id="sname">
+    </div><br>
+    <div class="row">
+         <label>Roll Number:</label>
+        <input type="text" id="rollno">
+    </div><br>
+    <br>
+        <button id="insert" onclick="insertData()">Insert</button>
+        <button id="delete" onclick="deleteData()">Delete</button>
+        <button id="update" onclick="updateData()">Update</button>
+        <button id="load" onclick="loadData()">Read</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
